@@ -14,7 +14,7 @@ public class DMovingBand : MonoBehaviour
     void Start()
     {
         isMoving = false;
-        Invoke("Call", 5);
+        Invoke("Call", 2);
     }
 
     void Call()
