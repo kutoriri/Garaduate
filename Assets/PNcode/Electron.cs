@@ -19,6 +19,8 @@ public class Electron : MonoBehaviour
     [SerializeField] private GameObject band3;
     [SerializeField] private GameObject band4;
 
+    [SerializeField] private GameObject a;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +44,7 @@ public class Electron : MonoBehaviour
         band3.SetActive(true);
         band4.SetActive(true);
 
+        a.SetActive(true);
     }
 
     // Update is called once per frame
