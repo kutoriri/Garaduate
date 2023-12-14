@@ -10,6 +10,7 @@ public class nshake : MonoBehaviour
     void Start()
     {
         InvokeRepeating("FunctionTest", 0f, 1.0f);
+        rb.AddForce(0, 5.0f, 100.0f, ForceMode.Force);
     }
 
     void FunctionTest()
@@ -21,6 +22,6 @@ public class nshake : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        this.transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 }
