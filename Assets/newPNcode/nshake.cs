@@ -10,7 +10,7 @@ public class nshake : MonoBehaviour
     void Start()
     {
         InvokeRepeating("FunctionTest", 0f, 1.0f);
-        rb.AddForce(0, 5.0f, 100.0f, ForceMode.Force);
+       // rb.AddForce(0, 5.0f, 100.0f, ForceMode.Force);
     }
 
     void FunctionTest()

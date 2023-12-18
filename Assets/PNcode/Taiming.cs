@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Taiming : MonoBehaviour
 {
+    public float MoveTime = 4.0f;
+
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("Call", 2);
+        Invoke("Call", MoveTime);
     }
 
     void Call()
