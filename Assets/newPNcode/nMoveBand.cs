@@ -28,7 +28,7 @@ public class nMoveBand : MonoBehaviour
         if (isMoving == false) return;
         Vector3 current = transform.position;
         Vector3 target = new Vector3(x, y, z);
-        float step = 2.0f * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(current, target, Time.deltaTime * 0.5f);
+        //float step = 2.0f * Time.deltaTime;
+        transform.position = Vector3.MoveTowards(current, target, Time.deltaTime * 0.6f);
     }
 }

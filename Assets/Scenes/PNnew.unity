@@ -1028,7 +1028,7 @@ PrefabInstance:
     - target: {fileID: 8950537410920101767, guid: c1c88a5a6e4653345b570e0538be6acf,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.48
+      value: 14.85
       objectReference: {fileID: 0}
     - target: {fileID: 8950537410920101767, guid: c1c88a5a6e4653345b570e0538be6acf,
         type: 3}
@@ -1388,6 +1388,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 665509236}
+--- !u!114 &665509233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665509228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756a26b529d5bdd4ca2c0ea225f42c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localGravity: {x: 0, y: 0.5, z: 0}
 --- !u!54 &665509236
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1713,7 +1726,7 @@ Transform:
   m_GameObject: {fileID: 849741500}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.1, y: -3.2, z: 8}
-  m_LocalScale: {x: 20, y: 0.18, z: 20}
+  m_LocalScale: {x: 20, y: 0.18, z: 15}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -1731,7 +1744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   x: 0
-  y: 0
+  y: 1
   z: 8
   MT: 10
 --- !u!1001 &907306490
@@ -2172,8 +2185,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   x: 0
-  y: 2.3
-  z: 10.8
+  y: 2.4
+  z: 10.7
   MT: 6
 --- !u!1001 &1200386966
 PrefabInstance:
@@ -2362,8 +2375,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotateTime: 6
-  StopTime: 13.1
-  _angleSpeed: 3
+  StopTime: 12
+  _angleSpeed: 3.7
   _axis: {x: -15, y: 0, z: 0}
 --- !u!4 &1240714116
 Transform:
