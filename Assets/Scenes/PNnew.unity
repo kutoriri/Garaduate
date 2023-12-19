@@ -412,7 +412,7 @@ MonoBehaviour:
   z: 5.21
   a: 2.27
   b: -1.09
-  c: 14.81
+  c: 13.5
 --- !u!54 &177338349
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1166,7 +1166,7 @@ MonoBehaviour:
   z: 5.13
   a: 0.44
   b: -1.79
-  c: 14.96
+  c: 13.5
 --- !u!54 &601090075
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1695,8 +1695,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 1
-  z: 8
-  MT: 10
+  z: 7
+  MT: 8
 --- !u!1001 &907306490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1994,7 +1994,7 @@ MonoBehaviour:
   z: 5
   a: -2.23
   b: -1.74
-  c: 15.48
+  c: 13.5
 --- !u!54 &1059579294
 Rigidbody:
   m_ObjectHideFlags: 0
