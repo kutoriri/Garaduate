@@ -5,6 +5,7 @@ using UnityEngine;
 public class nshake : MonoBehaviour
 {
     public Rigidbody rb;
+    public float force_direction = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +17,8 @@ public class nshake : MonoBehaviour
     void FunctionTest()
     {
         rb = GetComponent<Rigidbody>();
-        rb.AddForce(transform.up * 5.0f, ForceMode.Impulse);
+        rb.AddForce(transform.up * 5.0f * force_direction, ForceMode.Impulse);
+        // Debug.Log(transform.up * 5.0f * force_direction);
     }
 
     // Update is called once per frame
