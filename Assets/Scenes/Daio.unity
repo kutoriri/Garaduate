@@ -188,6 +188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text1
       objectReference: {fileID: 0}
+    - target: {fileID: 8201367420348903597, guid: 6d9dd37a2e3445742bfda4ec0c14a7fa,
+        type: 3}
+      propertyPath: MoveTime
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8201367420348903598, guid: 6d9dd37a2e3445742bfda4ec0c14a7fa,
         type: 3}
       propertyPath: m_Text
@@ -1719,7 +1724,7 @@ MonoBehaviour:
   x: 0
   y: -0.93
   z: -3.7
-  MT: 2.5
+  MT: 2.3
 --- !u!1001 &1384013212
 PrefabInstance:
   m_ObjectHideFlags: 0
