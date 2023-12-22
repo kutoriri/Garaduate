@@ -5,6 +5,7 @@ using UnityEngine;
 public class DMovingBand : MonoBehaviour
 {
     private bool isMoving = false;
+    public float speed = 1.3f;
     public float x = 0f;
     public float y = 2.5f;
     public float z = 9.0f;
@@ -29,6 +30,6 @@ public class DMovingBand : MonoBehaviour
         Vector3 current = transform.position;
         Vector3 target = new Vector3(x, y, z);
         //float step = 2.0f * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(current, target, Time.deltaTime * 2.5f);
+        transform.position = Vector3.MoveTowards(current, target, Time.deltaTime * speed);
     }
 }
