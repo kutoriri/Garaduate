@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class DNewEandH : MonoBehaviour
 {
-    [SerializeField] private GameObject a;
+    [SerializeField] private GameObject electron;
+    [SerializeField] private GameObject hole;
     public float ET = 1.0f;
 
     // Start is called before the first frame update
@@ -15,7 +16,8 @@ public class DNewEandH : MonoBehaviour
 
     void Call()
     {
-        a.SetActive(true);
+        electron.SetActive(true);
+        hole.SetActive(true);
        
     }
 
