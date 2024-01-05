@@ -6,6 +6,7 @@ public class nMoveTwo : MonoBehaviour
 {
     private bool isMoving = false;
     private bool isMoving2 = false;
+    public float speed = 2.0f;
     public float MoveTime = 1.0f;
     public float MoveTime2 = 2.0f;
 
@@ -49,7 +50,7 @@ public class nMoveTwo : MonoBehaviour
             Vector3 current = transform.position;
             Vector3 target = new Vector3(x, y, z);
             float step = 2.0f * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(current, target, Time.deltaTime * 2.0f);
+            transform.position = Vector3.MoveTowards(current, target, Time.deltaTime * speed);
         }
 
         if (isMoving == true && isMoving2 == true)
@@ -57,7 +58,7 @@ public class nMoveTwo : MonoBehaviour
             Vector3 current2 = transform.position;
             Vector3 target2 = new Vector3(a, b, c);
             float step2 = 2.0f * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(current2, target2, Time.deltaTime * 2.0f);
+            transform.position = Vector3.MoveTowards(current2, target2, Time.deltaTime * speed);
         }
     }
 }
