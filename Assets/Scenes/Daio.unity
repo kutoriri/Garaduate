@@ -6138,7 +6138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Starttime: 2
-  StopTime: 5
+  StopTime: 13
 --- !u!135 &2101844560
 SphereCollider:
   m_ObjectHideFlags: 0

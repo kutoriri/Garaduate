@@ -20,8 +20,6 @@ public class LED : MonoBehaviour
         _transform = transform;
     }
 
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -40,10 +38,11 @@ public class LED : MonoBehaviour
         isMoving2 = true;
     }
 
-
     // Update is called once per frame
     void Update()
     {
+        this.gameObject.transform.GetComponent<Renderer>().material.DisableKeyword("_EMISSION");
+
         if (isMoving == false) return;
         if (isMoving2 == true) return;
 
