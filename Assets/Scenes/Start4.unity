@@ -249,7 +249,7 @@ MonoBehaviour:
   x: 0
   y: -4.22
   z: 0
-  MT: 1.7
+  MT: 1.95
 --- !u!65 &107452112
 BoxCollider:
   m_ObjectHideFlags: 0
